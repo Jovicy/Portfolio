@@ -141,7 +141,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     gap: 20px;
-    min-height: 50vh;
+    min-height: 20vh;
     background: #232323;
 }
 
