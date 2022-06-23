@@ -1,0 +1,119 @@
+@media screen and (min-width: 56.25em) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: #232323;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    /* header */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    .header {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        min-height: 10vh;
+    }
+    
+    /* main */
+    .main {
+        min-height: 75vh;
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    /* main breifing */
+    .main-briefing {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .main-briefing h3 {
+        color: #f9eec0;
+        font-size: 18px;
+    }
+    .main-briefing h1 {
+        font-size: 34px;
+    }
+    .main-briefing p {
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+    
+    /* main illustration */
+    .main-illustration {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 30px 0px;
+    }
+    
+    .illustration {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+    
+    .illustration-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #dedede;
+        border-radius: 5px;
+        width: 250px;
+        padding: 50px 50px;
+        cursor: pointer;
+    }
+
+    .illustration-link:hover {
+        background: #ffeda3;
+        color: #232323;
+        border: 1px solid #ffeda3;
+    }
+    
+    .illustration-link h3{
+        text-align: center;
+    }
+    
+    /* btn */
+    .resume-btn {
+        padding: 15px 20px;
+        border-radius: 1px;
+        border: 1px solid #ffeda3;
+        color: #232323;
+        font-weight: 600;
+        background: #ffeda3;
+        cursor: pointer;
+    }
+    
+    .resume-btn:hover {
+        background-color: transparent;
+        border: 1px solid #ffeda3;
+        color: #ffeda3;
+    }
+    
+    /* footer */
+    .footer {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        min-height: 15vh;
+    }
+    
+}
