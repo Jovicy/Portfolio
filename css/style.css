@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     background: #232323;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    color: #fff;
+    color: #dedede;
     scrollbar-width: thin;
     scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
@@ -37,8 +42,10 @@ body::-webkit-scrollbar {
 }
 
 .logo {
+    color: #dedede;
     cursor: pointer;
 }
+
 .logo:hover {
     color: #ffeda3;
 }
@@ -64,10 +71,14 @@ body::-webkit-scrollbar {
     color: #f9eec0;
     font-size: 18px;
 }
+
 .main-briefing h1 {
+    color: #dedede;
     font-size: 34px;
 }
+
 .main-briefing p {
+    color: #dedede;
     line-height: 28px;
     letter-spacing: 1px;
 }
@@ -100,13 +111,8 @@ body::-webkit-scrollbar {
     font-weight: 400;
 }
 
-.illustration-link:hover {
-    background: #ffeda3;
-    color: #232323;
-    border: 1px solid #ffeda3;
-}
-
-.illustration-link h3{
+.illustration-link h3 {
+    color: #dedede;
     text-align: center;
 }
 
@@ -119,6 +125,8 @@ body::-webkit-scrollbar {
     font-weight: 600;
     background: #ffeda3;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
 }
 
 .resume-btn:hover {
@@ -137,7 +145,7 @@ body::-webkit-scrollbar {
     background: #232323;
 }
 
-.footer div i{
+.footer div i {
     background: #000;
     border-radius: 100%;
     width: 40px;
@@ -146,15 +154,23 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: #dedede;
 }
 
-.footer div i:hover{
+.footer div i:hover {
     background: #ffeda3;
     color: #000;
 }
 
 .icon {
-    border: 1px solid #dedede;
+    border: 2px solid #dedede;
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 40px;
 }

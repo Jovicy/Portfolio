@@ -79,12 +79,6 @@
         padding: 50px 50px;
         cursor: pointer;
     }
-
-    .illustration-link:hover {
-        background: #ffeda3;
-        color: #232323;
-        border: 1px solid #ffeda3;
-    }
     
     .illustration-link h3{
         text-align: center;
